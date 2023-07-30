@@ -35,12 +35,9 @@ const defaultitems = [
     }
 ]
 
-
-Item.insertMany(defaultitems);
-
-
-
-
+if(Item.length === 0){
+    Item.insertMany(defaultitems);
+}
 
 var workItems = [];
 
