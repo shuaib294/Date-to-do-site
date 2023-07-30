@@ -35,9 +35,9 @@ const defaultitems = [
     }
 ]
 
-if(Item.length==0){
-    Item.insertMany(defaultitems);
-}
+
+Item.insertMany(defaultitems);
+
 
 
 
