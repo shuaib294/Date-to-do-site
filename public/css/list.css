@@ -1,0 +1,118 @@
+.form{
+    display:flex;
+    flex-direction: row;
+    border-bottom: 1px solid black;
+    height:50px;
+    display:flex;
+    align-items: center;
+}
+
+li{
+    list-style: none;
+    margin-left: 10px;
+    font-size: large;
+}
+
+html{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: darkseagreen;
+}
+
+.date{
+    color:rgb(101, 146, 101);
+    padding:10px;
+    text-align: center;
+    background-color: white;
+    width:400px;
+    margin:auto;
+    border-radius:5px;
+    margin-bottom: 20px;
+}
+
+.box{
+    padding:10px;
+    background-color: white;
+    justify-content: center;
+    width:400px;
+    margin:auto;
+    border-radius:5px;
+    font-size: medium;
+}
+
+.container{
+    margin-top: 50px;
+}
+
+input:checked+li{
+    text-decoration: line-through;
+    text-decoration-color: rgb(101, 146, 101);
+}
+
+input[type=text]{
+    height:40px;
+    width:320px;
+    border-color: rgb(101, 146, 101);
+    background-color: white;
+    border-radius: 5px;
+}
+
+#btn{
+    height:40px;
+    width:40px;
+    border-radius: 50%;
+    background-color: darkseagreen;
+    color:white;
+    border:none;
+    font-size: x-large;
+    margin-left: 10px;
+}
+
+h2{
+    color:rgb(101, 146, 101);
+}
+
+::placeholder{
+    color:rgb(101, 146, 101);
+    font-size: medium;
+    padding-left: 20px;
+}
+
+input[type=checkbox]{
+    accent-color:rgb(101, 146, 101);
+}
+
+#btn:hover{
+    background-color: white;
+    border: 2px solid rgb(101, 146, 101);
+    color:rgb(101, 146, 101);
+}
+
+ul{
+    width:100%;
+    padding:0px;
+}
+
+.addlist{
+    padding:10px;
+    background-color: white;
+    justify-content: center;
+    width:400px;
+    margin:auto;
+    border-radius:5px;
+    font-size: medium;
+    margin-top: 20px;
+}
+
+#listbtn{
+    height:40px;
+    width:120px;
+    border-radius: 10px;
+    background-color: darkseagreen;
+    color:white;
+    border:none;
+    margin-left: 10px;
+}
+
+#listname{
+    width:250px;
+}
