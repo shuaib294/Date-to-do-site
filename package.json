@@ -17,5 +17,10 @@
     "lodash": "^4.17.21",
     "mogodb": "^0.0.1-security",
     "mongoose": "^7.4.1"
-  }
+  },
+
+  "engines": {
+    "node": ">=14 <15"
+    }
+        
 }
